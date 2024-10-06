@@ -1,10 +1,10 @@
 import DAO
 
-#DAO.inserir_pessoa('teste@teste.com', 'user teste', 'senha123')
+#DAO.inserir_usuario('teste@teste.com', 'user teste', 'senha123')
 
-#saida = DAO.buscar_pessoa('user teste')
+saida = DAO.buscar_usuario('user teste')
 
-saida = DAO.listar_usuarios()
+#saida = DAO.listar_usuarios()
 
 #saida = DAO.verificarlogin('teste@teste.com', 'senha123')
 
